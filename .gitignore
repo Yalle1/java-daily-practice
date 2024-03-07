@@ -13,6 +13,11 @@ target/
 *.iml
 *.ipr
 
+### Your custom ignores ###
+encodings.xml
+misc.xml
+vcs.xml
+
 ### Eclipse ###
 .apt_generated
 .classpath

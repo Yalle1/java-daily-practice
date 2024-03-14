@@ -45,4 +45,8 @@ public class Bank {
         }
         throw new IllegalArgumentException("No account found with this name");
     }
+
+    public Map<UUID, BankAccount> getAccounts() {
+        return accounts;
+    }
 }

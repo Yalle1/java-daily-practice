@@ -22,6 +22,7 @@ public class Main {
         aliceAccount.withdraw(new BigDecimal("50.00"));
 
         aliceAccount.checkBalance();
+
     }
 
 }

@@ -1,7 +1,6 @@
 package com.yalle1.practice2.bankaccountpractice;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.UUID;
 
 public class BankAccount {
@@ -9,7 +8,6 @@ public class BankAccount {
     private String name, password;
     private final UUID ID;
     private BigDecimal balance;
-    private boolean loggedIn;
 
 
     public BankAccount(String name, String password, UUID id) {
@@ -17,7 +15,6 @@ public class BankAccount {
         setPassword(password);
         this.balance = BigDecimal.valueOf(0);
         this.ID = id;
-        this.loggedIn = false;
     }
 
 
@@ -120,4 +117,13 @@ public class BankAccount {
 
     }
 
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", ID=" + ID +
+                ", balance=" + balance +
+                '}';
+    }
 }

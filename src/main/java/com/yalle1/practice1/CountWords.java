@@ -1,6 +1,4 @@
-package com.yalle1;
-
-import java.util.Optional;
+package com.yalle1.practice1;
 
 public class CountWords {
 

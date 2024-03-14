@@ -1,4 +1,4 @@
-package com.yalle1;
+package com.yalle1.practice1;
 
 import java.util.Scanner;
 public class PT1 {
